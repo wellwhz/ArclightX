@@ -36,7 +36,7 @@ jobs:
         ARCLIGHT_FILES_TOKEN: ${{ secrets.ARCLIGHT_FILES_TOKEN }}
       run: |
         ./gradlew cleanBuild remapSpigotJar idea --no-daemon -i --stacktrace --refresh-dependencies
-        ./gradlew build collect uploadFiles --no-daemon -i --stacktrace
+        ./gradlew build
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
       with:
