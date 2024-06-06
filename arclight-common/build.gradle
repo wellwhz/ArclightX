@@ -48,6 +48,7 @@ repositories {
     maven { url = 'https://repo.spongepowered.org/maven' }
     maven { url = 'https://oss.sonatype.org/content/repositories/snapshots/' }
     maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
     maven { url = 'https://files.minecraftforge.net/maven/' }
     maven { url = 'https://maven.izzel.io/releases' }
     maven { url = 'https://jitpack.io/' }
@@ -57,6 +58,7 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:$minecraftVersion-$forgeVersion"
     implementation "org.spigotmc:spigot-api:$minecraftVersion-R0.1-SNAPSHOT@jar"
+    implementation "io.papermc.paper:paper-api:$minecraftVersion-R0.1-SNAPSHOT@jar"
     implementation 'org.jetbrains:annotations:23.0.0'
 
     implementation "org.spongepowered:mixin:$mixinVersion"
@@ -76,6 +78,7 @@ dependencies {
     implementation project(':i18n-config')
     embed 'net.md-5:bungeecord-chat:1.16-R0.4@jar'
     embed "org.spigotmc:spigot-api:$minecraftVersion-R0.1-SNAPSHOT@jar"
+    embed "io.papermc.paper:paper-api:$minecraftVersion-R0.1-SNAPSHOT@jar"
 }
 
 jar {
