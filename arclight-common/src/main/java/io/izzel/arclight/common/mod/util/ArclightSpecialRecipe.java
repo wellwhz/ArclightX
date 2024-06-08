@@ -4,9 +4,9 @@ import io.izzel.arclight.common.bridge.core.item.crafting.RecipeManagerBridge;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraftforge.server.ServerLifecycleHooks;
 import org.bukkit.NamespacedKey;
-import org.bukkit.craftbukkit.v.inventory.CraftComplexRecipe;
-import org.bukkit.craftbukkit.v.inventory.CraftItemStack;
-import org.bukkit.craftbukkit.v.util.CraftNamespacedKey;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftComplexRecipe;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftItemStack;
+import org.bukkit.craftbukkit.v1_20_R1.util.CraftNamespacedKey;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 

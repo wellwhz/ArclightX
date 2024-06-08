@@ -2,7 +2,7 @@ package io.izzel.arclight.common.mod.server.event;
 
 import net.minecraftforge.event.entity.item.ItemExpireEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import org.bukkit.craftbukkit.v.event.CraftEventFactory;
+import org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory;
 
 public class ItemEntityEventDispatcher {
 

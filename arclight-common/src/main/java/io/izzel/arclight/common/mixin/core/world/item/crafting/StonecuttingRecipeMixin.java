@@ -9,10 +9,10 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.item.crafting.SingleItemRecipe;
 import net.minecraft.world.item.crafting.StonecutterRecipe;
-import org.bukkit.craftbukkit.v.inventory.CraftItemStack;
-import org.bukkit.craftbukkit.v.inventory.CraftRecipe;
-import org.bukkit.craftbukkit.v.inventory.CraftStonecuttingRecipe;
-import org.bukkit.craftbukkit.v.util.CraftNamespacedKey;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftItemStack;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftRecipe;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftStonecuttingRecipe;
+import org.bukkit.craftbukkit.v1_20_R1.util.CraftNamespacedKey;
 import org.bukkit.inventory.Recipe;
 import org.spongepowered.asm.mixin.Mixin;
 

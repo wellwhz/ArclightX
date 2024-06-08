@@ -1,7 +1,7 @@
 package io.izzel.arclight.common.mixin.bukkit;
 
 import com.google.common.collect.BiMap;
-import org.bukkit.craftbukkit.v.util.CraftMagicNumbers;
+import org.bukkit.craftbukkit.v1_20_R1.util.CraftMagicNumbers;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;

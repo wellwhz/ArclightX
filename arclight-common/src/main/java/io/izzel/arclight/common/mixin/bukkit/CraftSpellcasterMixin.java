@@ -4,7 +4,7 @@ import io.izzel.arclight.api.EnumHelper;
 import io.izzel.arclight.common.mod.ArclightMod;
 import net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhase;
 import net.minecraft.world.entity.monster.SpellcasterIllager;
-import org.bukkit.craftbukkit.v.entity.CraftSpellcaster;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftSpellcaster;
 import org.bukkit.entity.EnderDragon;
 import org.bukkit.entity.Spellcaster;
 import org.spongepowered.asm.mixin.Mixin;

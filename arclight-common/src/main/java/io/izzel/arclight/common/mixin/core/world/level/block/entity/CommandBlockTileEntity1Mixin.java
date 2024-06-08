@@ -4,7 +4,7 @@ import io.izzel.arclight.common.bridge.core.command.ICommandSourceBridge;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.world.level.block.entity.CommandBlockEntity;
 import org.bukkit.command.CommandSender;
-import org.bukkit.craftbukkit.v.command.CraftBlockCommandSender;
+import org.bukkit.craftbukkit.v1_20_R1.command.CraftBlockCommandSender;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 

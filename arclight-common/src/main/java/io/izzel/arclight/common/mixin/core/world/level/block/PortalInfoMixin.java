@@ -3,7 +3,7 @@ package io.izzel.arclight.common.mixin.core.world.level.block;
 import io.izzel.arclight.common.bridge.core.block.PortalInfoBridge;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.portal.PortalInfo;
-import org.bukkit.craftbukkit.v.event.CraftPortalEvent;
+import org.bukkit.craftbukkit.v1_20_R1.event.CraftPortalEvent;
 import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(PortalInfo.class)

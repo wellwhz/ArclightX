@@ -2,8 +2,8 @@ package io.izzel.arclight.common.mod.server.entity;
 
 import com.mojang.authlib.GameProfile;
 import net.minecraft.server.level.ServerPlayer;
-import org.bukkit.craftbukkit.v.CraftServer;
-import org.bukkit.craftbukkit.v.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_20_R1.CraftServer;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer;
 
 public class ArclightFakePlayer extends CraftPlayer {
 

@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.DetectorRailBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import org.bukkit.Bukkit;
 import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.v.block.CraftBlock;
+import org.bukkit.craftbukkit.v1_20_R1.block.CraftBlock;
 import org.bukkit.event.block.BlockRedstoneEvent;
 import org.objectweb.asm.Opcodes;
 import org.spongepowered.asm.mixin.Mixin;

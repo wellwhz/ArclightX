@@ -4,7 +4,7 @@ import io.izzel.arclight.common.bridge.core.entity.passive.TurtleEntityBridge;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.animal.Turtle;
-import org.bukkit.craftbukkit.v.event.CraftEventFactory;
+import org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Accessor;
 import org.spongepowered.asm.mixin.gen.Invoker;

@@ -2,9 +2,9 @@ package io.izzel.arclight.common.mixin.bukkit;
 
 import io.izzel.arclight.common.mod.server.ArclightContainer;
 import net.minecraft.world.inventory.AbstractContainerMenu;
-import org.bukkit.craftbukkit.v.entity.CraftHumanEntity;
-import org.bukkit.craftbukkit.v.inventory.CraftInventory;
-import org.bukkit.craftbukkit.v.inventory.CraftInventoryView;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftHumanEntity;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftInventory;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftInventoryView;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryView;

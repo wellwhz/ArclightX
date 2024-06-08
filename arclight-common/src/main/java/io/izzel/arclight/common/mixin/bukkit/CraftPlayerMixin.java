@@ -1,7 +1,7 @@
 package io.izzel.arclight.common.mixin.bukkit;
 
 import com.google.common.base.Preconditions;
-import org.bukkit.craftbukkit.v.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer;
 import org.bukkit.event.player.PlayerRegisterChannelEvent;
 import org.bukkit.plugin.messaging.StandardMessenger;
 import org.spongepowered.asm.mixin.Final;

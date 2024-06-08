@@ -39,7 +39,7 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.entity.PartEntity;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.craftbukkit.v.event.CraftEventFactory;
+import org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory;
 import org.bukkit.event.block.BlockExplodeEvent;
 import org.bukkit.event.block.BlockIgniteEvent;
 import org.bukkit.event.block.TNTPrimeEvent;

@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.DragonEggBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.border.WorldBorder;
 import org.bukkit.Bukkit;
-import org.bukkit.craftbukkit.v.block.CraftBlock;
+import org.bukkit.craftbukkit.v1_20_R1.block.CraftBlock;
 import org.bukkit.event.block.BlockFromToEvent;
 import org.objectweb.asm.Opcodes;
 import org.spongepowered.asm.mixin.Mixin;

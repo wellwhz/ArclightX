@@ -4,7 +4,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
 import org.bukkit.Location;
-import org.bukkit.craftbukkit.v.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer;
 import org.bukkit.event.player.PlayerSpawnChangeEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
 

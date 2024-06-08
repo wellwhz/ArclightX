@@ -1,8 +1,8 @@
 package io.izzel.arclight.common.mod.server.entity;
 
 import net.minecraft.world.entity.projectile.Projectile;
-import org.bukkit.craftbukkit.v.CraftServer;
-import org.bukkit.craftbukkit.v.entity.CraftProjectile;
+import org.bukkit.craftbukkit.v1_20_R1.CraftServer;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftProjectile;
 
 public class ArclightModProjectile extends CraftProjectile {
 

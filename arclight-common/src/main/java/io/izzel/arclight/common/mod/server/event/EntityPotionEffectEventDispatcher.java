@@ -3,7 +3,7 @@ package io.izzel.arclight.common.mod.server.event;
 import io.izzel.arclight.common.bridge.core.entity.LivingEntityBridge;
 import net.minecraftforge.event.entity.living.MobEffectEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import org.bukkit.craftbukkit.v.event.CraftEventFactory;
+import org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory;
 import org.bukkit.event.entity.EntityPotionEffectEvent;
 
 public class EntityPotionEffectEventDispatcher {

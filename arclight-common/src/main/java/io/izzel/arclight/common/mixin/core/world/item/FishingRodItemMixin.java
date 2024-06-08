@@ -18,7 +18,7 @@ import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.gameevent.GameEvent;
 import org.bukkit.Bukkit;
-import org.bukkit.craftbukkit.v.CraftEquipmentSlot;
+import org.bukkit.craftbukkit.v1_20_R1.CraftEquipmentSlot;
 import org.bukkit.entity.FishHook;
 import org.bukkit.event.player.PlayerFishEvent;
 import org.spongepowered.asm.mixin.Mixin;

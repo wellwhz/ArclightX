@@ -5,7 +5,7 @@ import net.minecraft.world.entity.npc.WanderingTrader;
 import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraft.world.item.trading.MerchantOffers;
 import org.bukkit.Bukkit;
-import org.bukkit.craftbukkit.v.inventory.CraftMerchantRecipe;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftMerchantRecipe;
 import org.bukkit.entity.AbstractVillager;
 import org.bukkit.event.entity.VillagerAcquireTradeEvent;
 import org.spongepowered.asm.mixin.Mixin;

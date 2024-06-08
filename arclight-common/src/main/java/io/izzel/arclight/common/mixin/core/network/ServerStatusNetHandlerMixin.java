@@ -12,7 +12,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.network.ServerStatusPacketListenerImpl;
 import net.minecraftforge.server.ServerLifecycleHooks;
 import org.bukkit.Bukkit;
-import org.bukkit.craftbukkit.v.util.CraftChatMessage;
+import org.bukkit.craftbukkit.v1_20_R1.util.CraftChatMessage;
 import org.spigotmc.SpigotConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

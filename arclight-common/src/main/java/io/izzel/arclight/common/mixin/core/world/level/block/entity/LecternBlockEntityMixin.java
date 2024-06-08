@@ -20,7 +20,7 @@ import net.minecraft.world.level.block.entity.LecternBlockEntity;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.Vec3;
 import org.bukkit.command.CommandSender;
-import org.bukkit.craftbukkit.v.command.CraftBlockCommandSender;
+import org.bukkit.craftbukkit.v1_20_R1.command.CraftBlockCommandSender;
 import org.jetbrains.annotations.NotNull;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;

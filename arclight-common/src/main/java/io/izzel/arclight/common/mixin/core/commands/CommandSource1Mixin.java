@@ -3,7 +3,7 @@ package io.izzel.arclight.common.mixin.core.commands;
 import io.izzel.arclight.common.bridge.core.command.ICommandSourceBridge;
 import net.minecraft.commands.CommandSourceStack;
 import org.bukkit.command.CommandSender;
-import org.bukkit.craftbukkit.v.command.ServerCommandSender;
+import org.bukkit.craftbukkit.v1_20_R1.command.ServerCommandSender;
 import org.jetbrains.annotations.NotNull;
 import org.spongepowered.asm.mixin.Mixin;
 

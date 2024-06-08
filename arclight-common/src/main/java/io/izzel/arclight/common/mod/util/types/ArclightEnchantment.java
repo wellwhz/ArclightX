@@ -1,7 +1,7 @@
 package io.izzel.arclight.common.mod.util.types;
 
 import net.minecraft.world.item.enchantment.Enchantment;
-import org.bukkit.craftbukkit.v.enchantments.CraftEnchantment;
+import org.bukkit.craftbukkit.v1_20_R1.enchantments.CraftEnchantment;
 import org.jetbrains.annotations.NotNull;
 
 public class ArclightEnchantment extends CraftEnchantment {

@@ -1,8 +1,8 @@
 package io.izzel.arclight.common.mod.server.entity;
 
 import net.minecraft.world.entity.raid.Raider;
-import org.bukkit.craftbukkit.v.CraftServer;
-import org.bukkit.craftbukkit.v.entity.CraftRaider;
+import org.bukkit.craftbukkit.v1_20_R1.CraftServer;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftRaider;
 
 public class ArclightModRaider extends CraftRaider {
 

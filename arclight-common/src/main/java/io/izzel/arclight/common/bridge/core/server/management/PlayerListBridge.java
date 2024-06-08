@@ -4,7 +4,7 @@ import com.mojang.authlib.GameProfile;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.network.ServerLoginPacketListenerImpl;
-import org.bukkit.craftbukkit.v.CraftServer;
+import org.bukkit.craftbukkit.v1_20_R1.CraftServer;
 
 import java.net.SocketAddress;
 import java.util.List;

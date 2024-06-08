@@ -3,7 +3,7 @@ package io.izzel.arclight.common.mixin.core.world.entity.projectile;
 import io.izzel.arclight.common.mixin.core.world.entity.EntityMixin;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.projectile.EvokerFangs;
-import org.bukkit.craftbukkit.v.event.CraftEventFactory;
+import org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

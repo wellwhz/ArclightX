@@ -2,7 +2,7 @@ package io.izzel.arclight.common.mixin.bukkit;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.BiMap;
-import org.bukkit.craftbukkit.v.potion.CraftPotionUtil;
+import org.bukkit.craftbukkit.v1_20_R1.potion.CraftPotionUtil;
 import org.bukkit.potion.PotionData;
 import org.bukkit.potion.PotionType;
 import org.spongepowered.asm.mixin.Final;

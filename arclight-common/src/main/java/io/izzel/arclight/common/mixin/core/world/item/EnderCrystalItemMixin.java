@@ -5,7 +5,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.boss.enderdragon.EndCrystal;
 import net.minecraft.world.item.EndCrystalItem;
 import net.minecraft.world.item.context.UseOnContext;
-import org.bukkit.craftbukkit.v.event.CraftEventFactory;
+import org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

@@ -4,7 +4,7 @@ import io.izzel.arclight.common.bridge.core.command.ICommandSourceBridge;
 import net.minecraft.core.PositionImpl;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
-import org.bukkit.craftbukkit.v.entity.CraftEntity;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftEntity;
 import org.bukkit.projectiles.ProjectileSource;
 
 import java.util.List;

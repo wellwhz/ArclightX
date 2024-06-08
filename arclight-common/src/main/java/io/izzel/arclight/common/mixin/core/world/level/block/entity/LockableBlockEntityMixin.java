@@ -5,7 +5,7 @@ import net.minecraft.world.Container;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.level.block.entity.BaseContainerBlockEntity;
 import org.bukkit.Location;
-import org.bukkit.craftbukkit.v.block.CraftBlock;
+import org.bukkit.craftbukkit.v1_20_R1.block.CraftBlock;
 import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(BaseContainerBlockEntity.class)

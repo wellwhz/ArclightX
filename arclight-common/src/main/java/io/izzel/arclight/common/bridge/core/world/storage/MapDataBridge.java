@@ -1,7 +1,7 @@
 package io.izzel.arclight.common.bridge.core.world.storage;
 
 import net.minecraft.world.level.saveddata.maps.MapItemSavedData;
-import org.bukkit.craftbukkit.v.map.CraftMapView;
+import org.bukkit.craftbukkit.v1_20_R1.map.CraftMapView;
 
 import java.util.List;
 

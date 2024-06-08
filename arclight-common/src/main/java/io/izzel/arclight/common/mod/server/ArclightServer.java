@@ -13,8 +13,8 @@ import net.minecraft.server.players.PlayerList;
 import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraftforge.server.ServerLifecycleHooks;
 import org.bukkit.World;
-import org.bukkit.craftbukkit.v.CraftServer;
-import org.bukkit.craftbukkit.v.command.ColouredConsoleSender;
+import org.bukkit.craftbukkit.v1_20_R1.CraftServer;
+import org.bukkit.craftbukkit.v1_20_R1.command.ColouredConsoleSender;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.File;

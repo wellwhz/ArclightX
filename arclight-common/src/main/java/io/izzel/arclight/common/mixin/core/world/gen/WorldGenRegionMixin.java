@@ -4,7 +4,7 @@ import io.izzel.arclight.common.bridge.core.world.WorldBridge;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.WorldGenRegion;
 import net.minecraft.world.entity.Entity;
-import org.bukkit.craftbukkit.v.CraftWorld;
+import org.bukkit.craftbukkit.v1_20_R1.CraftWorld;
 import org.bukkit.event.entity.CreatureSpawnEvent;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;

@@ -6,9 +6,9 @@ import io.izzel.arclight.common.bridge.core.item.ItemStackBridge;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.item.ItemStack;
 import org.bukkit.Material;
-import org.bukkit.craftbukkit.v.inventory.CraftItemFactory;
-import org.bukkit.craftbukkit.v.inventory.CraftItemStack;
-import org.bukkit.craftbukkit.v.legacy.CraftLegacy;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftItemFactory;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftItemStack;
+import org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
@@ -23,7 +23,7 @@ import java.util.Objects;
 public abstract class CraftItemStackMixin implements CraftItemStackBridge {
 
     // @formatter:off
-    @Shadow ItemStack handle;
+    @Shadow(remap = false) public ItemStack handle;
     @Shadow public abstract Material getType();
     @Shadow public abstract short getDurability();
     @Shadow public abstract boolean hasItemMeta();

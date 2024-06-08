@@ -2,8 +2,8 @@ package io.izzel.arclight.common.bridge.bukkit;
 
 import io.izzel.arclight.i18n.conf.MaterialPropertySpec;
 import org.bukkit.block.BlockState;
-import org.bukkit.craftbukkit.v.block.CraftBlock;
-import org.bukkit.craftbukkit.v.inventory.CraftMetaItem;
+import org.bukkit.craftbukkit.v1_20_R1.block.CraftBlock;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftMetaItem;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import javax.annotation.Nullable;

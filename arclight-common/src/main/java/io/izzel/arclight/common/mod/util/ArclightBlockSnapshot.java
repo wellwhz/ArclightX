@@ -2,7 +2,7 @@ package io.izzel.arclight.common.mod.util;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.util.BlockSnapshot;
-import org.bukkit.craftbukkit.v.block.CraftBlock;
+import org.bukkit.craftbukkit.v1_20_R1.block.CraftBlock;
 
 public class ArclightBlockSnapshot extends CraftBlock {
 

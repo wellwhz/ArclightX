@@ -3,7 +3,7 @@ package io.izzel.arclight.common.bridge.core.server;
 import net.minecraft.commands.Commands;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.command.RemoteConsoleCommandSender;
-import org.bukkit.craftbukkit.v.CraftServer;
+import org.bukkit.craftbukkit.v1_20_R1.CraftServer;
 
 public interface MinecraftServerBridge {
 

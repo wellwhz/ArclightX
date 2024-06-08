@@ -16,7 +16,7 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.chunk.ChunkAccess;
 import net.minecraft.world.level.chunk.LevelChunk;
 import net.minecraft.world.level.storage.LevelData;
-import org.bukkit.craftbukkit.v.util.CraftSpawnCategory;
+import org.bukkit.craftbukkit.v1_20_R1.util.CraftSpawnCategory;
 import org.bukkit.entity.SpawnCategory;
 import org.bukkit.event.entity.CreatureSpawnEvent;
 import org.spongepowered.asm.mixin.Final;

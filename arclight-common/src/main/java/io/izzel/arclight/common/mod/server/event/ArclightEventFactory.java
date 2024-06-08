@@ -2,7 +2,7 @@ package io.izzel.arclight.common.mod.server.event;
 
 import io.izzel.arclight.common.bridge.core.entity.LivingEntityBridge;
 import org.bukkit.Bukkit;
-import org.bukkit.craftbukkit.v.entity.CraftLivingEntity;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftLivingEntity;
 import org.bukkit.entity.Entity;
 import org.bukkit.event.Event;
 import org.bukkit.event.entity.EntityDeathEvent;

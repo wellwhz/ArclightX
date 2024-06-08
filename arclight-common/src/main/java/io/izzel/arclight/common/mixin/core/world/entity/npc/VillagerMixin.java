@@ -7,7 +7,7 @@ import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.monster.Witch;
 import net.minecraft.world.item.trading.MerchantOffer;
 import org.bukkit.Bukkit;
-import org.bukkit.craftbukkit.v.event.CraftEventFactory;
+import org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory;
 import org.bukkit.entity.Villager;
 import org.bukkit.event.entity.CreatureSpawnEvent;
 import org.bukkit.event.entity.EntityPotionEffectEvent;

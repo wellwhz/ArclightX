@@ -3,7 +3,7 @@ package io.izzel.arclight.common.mixin.bukkit;
 import io.izzel.arclight.common.bridge.core.item.crafting.IRecipeBridge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.crafting.RecipeType;
-import org.bukkit.craftbukkit.v.inventory.RecipeIterator;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.RecipeIterator;
 import org.bukkit.inventory.Recipe;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;

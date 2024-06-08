@@ -20,7 +20,7 @@ import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.event.entity.EntityTeleportEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.craftbukkit.v.CraftWorld;
+import org.bukkit.craftbukkit.v1_20_R1.CraftWorld;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;

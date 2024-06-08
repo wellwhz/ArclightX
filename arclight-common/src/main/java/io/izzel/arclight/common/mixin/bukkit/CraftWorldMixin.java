@@ -3,7 +3,7 @@ package io.izzel.arclight.common.mixin.bukkit;
 import io.izzel.arclight.common.bridge.core.world.server.ServerWorldBridge;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.biome.Biome;
-import org.bukkit.craftbukkit.v.CraftWorld;
+import org.bukkit.craftbukkit.v1_20_R1.CraftWorld;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;

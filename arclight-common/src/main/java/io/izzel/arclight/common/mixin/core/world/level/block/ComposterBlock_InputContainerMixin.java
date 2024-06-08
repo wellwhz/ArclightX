@@ -4,7 +4,7 @@ import io.izzel.arclight.common.mixin.core.world.SimpleContainerMixin;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
-import org.bukkit.craftbukkit.v.inventory.CraftBlockInventoryHolder;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftBlockInventoryHolder;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

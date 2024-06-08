@@ -8,7 +8,7 @@ import net.minecraft.nbt.NbtIo;
 import net.minecraft.nbt.Tag;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.logging.log4j.LogManager;
-import org.bukkit.craftbukkit.v.inventory.CraftMetaItem;
+import org.bukkit.craftbukkit.v1_20_R1.inventory.CraftMetaItem;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

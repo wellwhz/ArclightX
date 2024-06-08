@@ -2,7 +2,7 @@ package io.izzel.arclight.common.bridge.core.inventory.container;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.inventory.AbstractContainerMenu;
-import org.bukkit.craftbukkit.v.entity.CraftHumanEntity;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftHumanEntity;
 import org.bukkit.inventory.InventoryView;
 
 public interface ContainerBridge {

@@ -25,7 +25,7 @@ arclight {
     mcVersion = minecraftVersion
     forgeVersion = project.ext.forgeVersion
     bukkitVersion = 'v1_20_R1'
-    wipeVersion = true
+    wipeVersion = false
     reobfVersion = true
     accessTransformer = project.file('bukkit.at')
     // packageName = 'spigot'
